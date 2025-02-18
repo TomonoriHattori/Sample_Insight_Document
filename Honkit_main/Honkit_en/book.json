@@ -1,0 +1,10 @@
+{
+  "language": "en",
+  "title": "ailia DX Insight",
+  "styles": {
+    "website": "styles/website.css"
+  },
+  "plugins":[
+    "back-to-top-button"
+  ]
+}

@@ -1,0 +1,962 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <title>OpenAI's Pricing · ailia DX Insight</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 5.1.4">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="OpenAI_APIKey.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    HOME
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="overview.html">
+            
+                <a href="overview.html">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="SetUp.html">
+            
+                <a href="SetUp.html">
+            
+                    
+                    Setup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="v1_2update.html">
+            
+                <a href="v1_2update.html">
+            
+                    
+                    v1.2.0 release note
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="v1_1update.html">
+            
+                <a href="v1_1update.html">
+            
+                    
+                    v1.0 to 1.1 Update Guide
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="MainOperation.html">
+            
+                <a href="MainOperation.html">
+            
+                    
+                    Main Operation Methods
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="FileView.html">
+            
+                <a href="FileView.html">
+            
+                    
+                    Operating File View
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="IndexRegister.html">
+            
+                <a href="IndexRegister.html">
+            
+                    
+                    Registering Files to Index
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="ConfigFile.html">
+            
+                <a href="ConfigFile.html">
+            
+                    
+                    Creating a Config File
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="UseAI.html">
+            
+                <a href="UseAI.html">
+            
+                    
+                    Use AI
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="AskToAI.html">
+            
+                <a href="AskToAI.html">
+            
+                    
+                    Ask AI Questions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="DocumentFile.html">
+            
+                <a href="DocumentFile.html">
+            
+                    
+                    Ask Questions About Document Files
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="AskAboutImage.html">
+            
+                <a href="AskAboutImage.html">
+            
+                    
+                    Ask Questions About Image Files
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4" data-path="SummarizeDocument.html">
+            
+                <a href="SummarizeDocument.html">
+            
+                    
+                    Summarize Document Files
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.5" data-path="Translation.html">
+            
+                <a href="Translation.html">
+            
+                    
+                    Translate Document Files
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.6" data-path="Proofread.html">
+            
+                <a href="Proofread.html">
+            
+                    
+                    Proofreading document files
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.7" data-path="SearchImage.html">
+            
+                <a href="SearchImage.html">
+            
+                    
+                    Search Images
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.8" data-path="GenerateImage.html">
+            
+                <a href="GenerateImage.html">
+            
+                    
+                    Generate Images
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.9" data-path="Recording.html">
+            
+                <a href="Recording.html">
+            
+                    
+                    Take Meeting Minutes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.10" data-path="VoiceInput.html">
+            
+                <a href="VoiceInput.html">
+            
+                    
+                    Using Voice Input
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" >
+            
+                <span>
+            
+                    
+                    Utilities
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="LocalLLM.html">
+            
+                <a href="LocalLLM.html">
+            
+                    
+                    Local LLM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="Benchmark.html">
+            
+                <a href="Benchmark.html">
+            
+                    
+                    Benchmark
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" >
+            
+                <span>
+            
+                    
+                    More Details
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="Security.html">
+            
+                <a href="Security.html">
+            
+                    
+                    Construct Secure Environment
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1.1" data-path="CustomLLM.html">
+            
+                <a href="CustomLLM.html">
+            
+                    
+                    Set up Custom LLM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.2" data-path="CustomLLM_LMstudio.html">
+            
+                <a href="CustomLLM_LMstudio.html">
+            
+                    
+                    Build Custom LLM with LM Studio
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.3" data-path="CustomLLM_Ollama.html">
+            
+                <a href="CustomLLM_Ollama.html">
+            
+                    
+                    Build Custom LLM with Ollama
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.4" data-path="CustomLLM_FastChat.html">
+            
+                <a href="CustomLLM_FastChat.html">
+            
+                    
+                    Build Custom LLM with FastChat
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.5" data-path="CustomLLM_Recomend.html">
+            
+                <a href="CustomLLM_Recomend.html">
+            
+                    
+                    Our Recommended LLM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="RAG.html">
+            
+                <a href="RAG.html">
+            
+                    
+                    Improve Response Accuracy with RAG
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3" data-path="Embedding.html">
+            
+                <a href="Embedding.html">
+            
+                    
+                    About Embedding
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4" data-path="AzureOpenAI.html">
+            
+                <a href="AzureOpenAI.html">
+            
+                    
+                    Azure OpenAI Service
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.5" data-path="Gemini.html">
+            
+                <a href="Gemini.html">
+            
+                    
+                    Gemini
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" >
+            
+                <span>
+            
+                    
+                    About OpenAI
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" data-path="OpenAI_APIKey.html">
+            
+                <a href="OpenAI_APIKey.html">
+            
+                    
+                    Obtain an OpenAI API Key
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="6.1.2" data-path="Pricing.html">
+            
+                <a href="Pricing.html">
+            
+                    
+                    OpenAI's Pricing
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" >
+            
+                <span>
+            
+                    
+                    External Links
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1.1" >
+            
+                <a target="_blank" href="https://ailia.ai/dx/">
+            
+                    
+                    Download the Evaluation App
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.2" >
+            
+                <a target="_blank" href="https://www.youtube.com/watch?v=2_HJTVPLWpg">
+            
+                    
+                    Promotion Video（YouTube）
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" >
+            
+                <a target="_blank" href="https://axinc-ai.github.io/ailia-dx-insight/">
+            
+                    
+                    Language
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >OpenAI's Pricing</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="openais-pricing-structure">OpenAI&apos;s pricing structure</h1>
+<p>When using OpenAI&apos;s features (ChatGPT/dall-e, etc.) with ailia DX Insight, please be aware of the pricing structure and rate limits. Rate limits are implemented by OpenAI from a service stability perspective, and the number of requests is restricted based on the user&apos;s Tier (usage level). Please note that if you plan to use one account with multiple people, it may take about a week or more (sometimes up to three weeks) to prepare for removing rate limits.</p>
+<h2 id="about-chatgpt-tokens">About ChatGPT tokens</h2>
+<p>Each OpenAI model determines the amount of pay-as-you-go billing based on token units. The usage fee is the sum of the unit price according to the number of tokens input and the unit price according to the number of tokens output.</p>
+<p>A token, in the case of English, is equivalent to one word being one token, and in the case of Japanese, one character is usually equivalent to 1-2 tokens. Also, in the case of Japanese, terms like &quot;desu&quot; and &quot;masu&quot; may equal one token for two characters. &quot;The number of tokens varies depending on the version of ChatGPT.&quot;<br>
+Additionally, punctuation marks or question marks are each counted as one token.<br></p>
+<pre><code>e.g.） What is the captal of Japan? &amp;rarr; 7 Tokens
+e.g.） What is the capital of the United States? &amp;rarr; 9 Tokens
+</code></pre><p>By using a tool called &quot;<a href="https://platform.openai.com/tokenizer" target="_blank">Tokenizer</a>&quot; provided by OpenAI, you can check how the input tokens are being counted.<br>
+<img src="img/API_key_17.png" alt="API_key_17"><br></p>
+<p>Please check <a href="https://openai.com/api/pricing/" target="_blank">here</a> for the usage fees for each model, as they vary.
+<br></p>
+<h2 id="rate-limit">Rate limit</h2>
+<p>OpenAI has implemented rate limits from a perspective of service stability. Rate limits are measured in five ways: RPM (requests per minute), RPD (requests per day), TPM (tokens per minute), TPD (tokens per day), and IPM (images per minute).<br>
+Rate limits can hit any option depending on what happens first. For example, if you send only 100 tokens per request to the ChatCompletions endpoint 20 times, you will reach the limit (if the RPM is 20) without sending 150,000 tokens in those 20 requests (if the TPM limit is 150,000).<br>
+Also, rate limits vary by the user&apos;s Tier and the model being used.<br></p>
+<p>For more information on rate limits, please check <a href="https://platform.openai.com/docs/guides/rate-limits/usage-tiers?context=tier-one" target="_blank">OpenAI&apos;s HP</a>.</p>
+<h2 id="tier-1">Tier *1</h2>
+<p>Tier is divided into five stages from Tier 1 to Tier 5 based on the payment amount and the number of days elapsed since the first payment. (There is also a free tier limited to user registration only)</p>
+<div class="scroll_area" style="width:100%;max-width:800px;overflow-x:scroll;">
+    <table style="width:800px;">
+      <thead>
+      <tr>
+      <th>Tier</th>
+      <th>Qualification</th>
+      <th>Usage Limits</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+      <td>Free</td>
+      <td></td>
+      <td>$100/month</td>
+      </tr>
+      <tr>
+      <td>Tier1</td>
+      <td>$5 paid</td>
+      <td>$100/month</td>
+      </tr>
+      <tr>
+      <td>Tier2</td>
+      <td>$50 paid and 7+ days since first successful payment</td>
+      <td>$500/month</td>
+      </tr>
+      <tr>
+      <td>Tier3</td>
+      <td>$100 paid and 7+ days since first successful payment</td>
+      <td>$1,000/month</td>
+      </tr>
+      <tr>
+      <td>Tier4</td>
+      <td>$250 paid and 14+ days since first successful payment</td>
+      <td>$5,000/month</td>
+      </tr>
+      <tr>
+      <td>Tier5</td>
+      <td>$1,000 paid and 30+ days since first successful payment</td>
+      <td>$50,000/month</td>
+      </tr>
+      </tbody>
+    </table>
+</div>
+
+<p>*1 Please note that the conditions for the Tier may vary, so please also refer to <a href="https://platform.openai.com/docs/guides/rate-limits/usage-tiers?context=tier-one" target="_blank">OpenAI&apos;s official HP</a>.</p>
+<h2 id="requesting-to-increase-rate-limits">Requesting to increase rate limits</h2>
+<p>Once you reach Tier2 or higher, you can request an increase in rate limits.</p>
+<ol>
+<li>Select &quot;Request an exception&quot; at the bottom of the &quot;Limits&quot; section in your profile.
+<img src="img/RateLimit_01.png" alt="RateLimit_01"></li>
+<li><p>The &quot;Request a limit increase&quot; window will appear, enter the necessary information about the limit you want to increase, and select &quot;Submit&quot;.
+<img src="img/RateLimit_02.png" alt="RateLimit_02"></p>
+<ul>
+<li><code>Limit type</code><br>Select one from limits per minute (RPM) / tokens per minute (TPM) / images per minute (IPM) / monthly usage limits.</li>
+<li><code>Model</code>（*）<br>Select the model you want to increase limits for.<br>(If your main use is as a chat, it will likely be &apos;gpt-4&apos; / if it&apos;s for image generation, it will likely be &apos;dal-e&apos;)<br></li>
+<li><code>Request rate limit</code><br>Enter the figure you wish to request for the rate limit.</li>
+<li><code>Reason</code>Enter a brief explanation of how increasing rate limits will help and what inconveniences occur with current rate limits.</li>
+</ul>
+<p>（*） If &apos;Monthly usage limit&apos; is selected for Limit type, no model selection is necessary.</p>
+</li>
+</ol>
+<h2 id="setting-a-spending-limit">Setting a spending limit</h2>
+<p>OpenAI&apos;s models are pay-as-you-go, and usage limits can be set to manage usage fees.</p>
+<ol>
+<li>Click on the account icon at the top right of OpenAI&apos;s home screen and select &quot;Your profile&quot;.<br>
+<img src="img/API_key_12.png" alt="API_key_12"><br></li>
+<li>A screen called Settings will appear, select &quot;Billing&quot; from the left menu, and then select &quot;Usage limits&quot;.<br>
+<img src="img/API_key_16.png" alt="API_key_16"><br> </li>
+</ol>
+<h4 id="back-to-home"><a href="./">Back to Home</a></h4>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="OpenAI_APIKey.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Obtain an OpenAI API Key">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"OpenAI's Pricing","level":"6.1.2","depth":2,"next":{"title":"External Links","level":"7.1","depth":1,"ref":"","articles":[{"title":"Download the Evaluation App","level":"7.1.1","depth":2,"url":"https://ailia.ai/dx/","ref":"https://ailia.ai/dx/","articles":[]},{"title":"Promotion Video（YouTube）","level":"7.1.2","depth":2,"url":"https://www.youtube.com/watch?v=2_HJTVPLWpg","ref":"https://www.youtube.com/watch?v=2_HJTVPLWpg","articles":[]}]},"previous":{"title":"Obtain an OpenAI API Key","level":"6.1.1","depth":2,"path":"OpenAI_APIKey.md","ref":"OpenAI_APIKey.md","articles":[]},"dir":"ltr"},"config":{"plugins":["back-to-top-button"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"back-to-top-button":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"ailia DX Insight","language":"en","gitbook":"*"},"file":{"path":"Pricing.md","mtime":"2024-12-19T05:23:39.616Z","type":"markdown"},"gitbook":{"version":"5.1.4","time":"2025-02-13T10:08:30.310Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

@@ -1,0 +1,922 @@
+
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Obtain an OpenAI API Key · ailia DX Insight</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 5.1.4">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Pricing.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    HOME
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="overview.html">
+            
+                <a href="overview.html">
+            
+                    
+                    Overview
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="SetUp.html">
+            
+                <a href="SetUp.html">
+            
+                    
+                    Setup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="v1_2update.html">
+            
+                <a href="v1_2update.html">
+            
+                    
+                    v1.2.0 release note
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="v1_1update.html">
+            
+                <a href="v1_1update.html">
+            
+                    
+                    v1.0 to 1.1 Update Guide
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="MainOperation.html">
+            
+                <a href="MainOperation.html">
+            
+                    
+                    Main Operation Methods
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="FileView.html">
+            
+                <a href="FileView.html">
+            
+                    
+                    Operating File View
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="IndexRegister.html">
+            
+                <a href="IndexRegister.html">
+            
+                    
+                    Registering Files to Index
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="ConfigFile.html">
+            
+                <a href="ConfigFile.html">
+            
+                    
+                    Creating a Config File
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="UseAI.html">
+            
+                <a href="UseAI.html">
+            
+                    
+                    Use AI
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="AskToAI.html">
+            
+                <a href="AskToAI.html">
+            
+                    
+                    Ask AI Questions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="DocumentFile.html">
+            
+                <a href="DocumentFile.html">
+            
+                    
+                    Ask Questions About Document Files
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="AskAboutImage.html">
+            
+                <a href="AskAboutImage.html">
+            
+                    
+                    Ask Questions About Image Files
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4" data-path="SummarizeDocument.html">
+            
+                <a href="SummarizeDocument.html">
+            
+                    
+                    Summarize Document Files
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.5" data-path="Translation.html">
+            
+                <a href="Translation.html">
+            
+                    
+                    Translate Document Files
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.6" data-path="Proofread.html">
+            
+                <a href="Proofread.html">
+            
+                    
+                    Proofreading document files
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.7" data-path="SearchImage.html">
+            
+                <a href="SearchImage.html">
+            
+                    
+                    Search Images
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.8" data-path="GenerateImage.html">
+            
+                <a href="GenerateImage.html">
+            
+                    
+                    Generate Images
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.9" data-path="Recording.html">
+            
+                <a href="Recording.html">
+            
+                    
+                    Take Meeting Minutes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.10" data-path="VoiceInput.html">
+            
+                <a href="VoiceInput.html">
+            
+                    
+                    Using Voice Input
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" >
+            
+                <span>
+            
+                    
+                    Utilities
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="LocalLLM.html">
+            
+                <a href="LocalLLM.html">
+            
+                    
+                    Local LLM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="Benchmark.html">
+            
+                <a href="Benchmark.html">
+            
+                    
+                    Benchmark
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" >
+            
+                <span>
+            
+                    
+                    More Details
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="Security.html">
+            
+                <a href="Security.html">
+            
+                    
+                    Construct Secure Environment
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1.1" data-path="CustomLLM.html">
+            
+                <a href="CustomLLM.html">
+            
+                    
+                    Set up Custom LLM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.2" data-path="CustomLLM_LMstudio.html">
+            
+                <a href="CustomLLM_LMstudio.html">
+            
+                    
+                    Build Custom LLM with LM Studio
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.3" data-path="CustomLLM_Ollama.html">
+            
+                <a href="CustomLLM_Ollama.html">
+            
+                    
+                    Build Custom LLM with Ollama
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.4" data-path="CustomLLM_FastChat.html">
+            
+                <a href="CustomLLM_FastChat.html">
+            
+                    
+                    Build Custom LLM with FastChat
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.5" data-path="CustomLLM_Recomend.html">
+            
+                <a href="CustomLLM_Recomend.html">
+            
+                    
+                    Our Recommended LLM
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="RAG.html">
+            
+                <a href="RAG.html">
+            
+                    
+                    Improve Response Accuracy with RAG
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3" data-path="Embedding.html">
+            
+                <a href="Embedding.html">
+            
+                    
+                    About Embedding
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4" data-path="AzureOpenAI.html">
+            
+                <a href="AzureOpenAI.html">
+            
+                    
+                    Azure OpenAI Service
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.5" data-path="Gemini.html">
+            
+                <a href="Gemini.html">
+            
+                    
+                    Gemini
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" >
+            
+                <span>
+            
+                    
+                    About OpenAI
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="6.1.1" data-path="OpenAI_APIKey.html">
+            
+                <a href="OpenAI_APIKey.html">
+            
+                    
+                    Obtain an OpenAI API Key
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2" data-path="Pricing.html">
+            
+                <a href="Pricing.html">
+            
+                    
+                    OpenAI's Pricing
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" >
+            
+                <span>
+            
+                    
+                    External Links
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1.1" >
+            
+                <a target="_blank" href="https://ailia.ai/dx/">
+            
+                    
+                    Download the Evaluation App
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.2" >
+            
+                <a target="_blank" href="https://www.youtube.com/watch?v=2_HJTVPLWpg">
+            
+                    
+                    Promotion Video（YouTube）
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" >
+            
+                <a target="_blank" href="https://axinc-ai.github.io/ailia-dx-insight/">
+            
+                    
+                    Language
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Obtain an OpenAI API Key</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="how-to-obtain-an-openai-api-key">How to Obtain an OpenAI API Key</h1>
+<p>To use OpenAI&apos;s features within &quot;ailia DX insight,&quot; you need to obtain an API key from OpenAI.<br>
+Furthermore, OpenAI sets <a href="RateLimits.md">rate limits</a>, so it is recommended to raise the rate limit ceiling, especially if used by multiple people. This requires a certain number of days (minimum of 7 days) to pass, so prompt action is necessary.</p>
+<h2 id="create-an-openai-account">Create an OpenAI Account</h2>
+<ol>
+<li>Select &quot;Sign up&quot; from the <a href="https://platform.openai.com/docs/overview" target="_blank">OpenAI Platform</a>.<br>
+<img src="img/API_key_01.png" alt="API_key_01"><br></li>
+<li>Follow the prompts to enter your email address and password, then select continue.<br>
+<img src="img/API_key_02.png" alt="API_key_02"><br></li>
+<li>You will receive an email titled &quot;OpenAI - Verify your email&quot; to the registered email address. Select the email verification to launch your browser.<br>
+<img src="img/API_key_03.png" alt="API_key_03"><br></li>
+<li>In the launched browser, enter your &quot;name,&quot; &quot;organization name (optional),&quot; and &quot;date of birth,&quot; and after confirming the terms and privacy policy, select agree.
+<br>
+<img src="img/API_key_04.png" alt="API_key_04"><br></li>
+</ol>
+<h2 id="register-your-phone-number">Register Your Phone Number</h2>
+<p>You need to register a phone number that can receive short messages to obtain an API key.</p>
+<ol>
+<li>Select &quot;Dashboard&quot; at the top right of the OpenAI Docs page.<br>
+<img src="img/API_key_05.png" alt="API_key_05"><br></li>
+<li>From the menu on the left, select &quot;API keys,&quot; then select &quot;Start verification&quot; next to the prompt &quot;Verify your phone number to create an API key.&quot;<br>
+<img src="img/API_key_06.png" alt="API_key_06"><br></li>
+<li>Enter your phone number and select &quot;Send code.&quot;<br>
+<img src="img/API_key_07.png" alt="API_key_07"><br></li>
+<li>You will receive an OpenAI verification code via short message to the registered phone number, which you need to enter on the next screen to complete the phone number registration.<br>
+<img src="img/API_key_08.png" alt="API_key_08"><br></li>
+</ol>
+<h2 id="generate-an-api-key">Generate an API Key</h2>
+<ol>
+<li>Select &quot;+ Create new secret key.&quot;<br>
+<img src="img/API_key_09.png" alt="API_key_09"><br></li>
+<li>&quot;Create new secret key&quot; window will appear. Enter a name of your choice to generate the API key.<br>
+<img src="img/API_key_10.png" alt="API_key_10"><br></li>
+<li>The API key will be displayed.<br></li>
+<li>The generated API key will only be shown once, so it&apos;s recommended to copy and save it at this point.<br> 
+<img src="img/API_key_11.png" alt="API_key_11"><br></li>
+</ol>
+<h2 id="register-payment-information">Register Payment Information</h2>
+<ol>
+<li>Click on your account icon at the top right of the OpenAI home screen and select &quot;Your profile.&quot;<br>　
+<img src="img/API_key_12.png" alt="API_key_12"><br></li>
+<li>You will see the Settings screen. From the menu on the left, select &quot;Billing&quot; and then &quot;Add payment details.&quot;<br>
+<img src="img/API_key_13.png" alt="API_key_13"><br></li>
+<li>A window saying &quot;What best describes you?&quot; will appear. Select either &quot;individual&quot; or &quot;Company.&quot;<br> 
+<img src="img/API_key_14.png" alt="API_key_14"><br></li>
+<li>Enter your card information/billing address in the displayed window and select &quot;Continue&quot; to complete the registration of your payment information.</li>
+<li>You can manage the costs associated with API by <a href="Pricing.html">setting a monthly payment limit</a>.</li>
+</ol>
+<h4 id="next ＞"><a href="Pricing.html">Next ＞</a></h4>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="Pricing.html" class="navigation navigation-next navigation-unique" aria-label="Next page: OpenAI's Pricing">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Obtain an OpenAI API Key","level":"6.1.1","depth":2,"next":{"title":"OpenAI's Pricing","level":"6.1.2","depth":2,"path":"Pricing.md","ref":"Pricing.md","articles":[]},"previous":{"title":"About OpenAI","level":"6.1","depth":1,"ref":"","articles":[{"title":"Obtain an OpenAI API Key","level":"6.1.1","depth":2,"path":"OpenAI_APIKey.md","ref":"OpenAI_APIKey.md","articles":[]},{"title":"OpenAI's Pricing","level":"6.1.2","depth":2,"path":"Pricing.md","ref":"Pricing.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["back-to-top-button"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"back-to-top-button":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"ailia DX Insight","language":"en","gitbook":"*"},"file":{"path":"OpenAI_APIKey.md","mtime":"2024-12-20T06:27:09.881Z","type":"markdown"},"gitbook":{"version":"5.1.4","time":"2025-02-13T10:08:30.310Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
