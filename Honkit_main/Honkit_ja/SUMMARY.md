@@ -1,6 +1,6 @@
 # Summary
 
-* [&lt;img src='img_icons/Home.png'&gt;HOME](README.md)
+* [&lt;img src='img_icons/home.png'&gt;HOME](README.md)
 * [&lt;img src='img_icons/overview.png'&gt;概要](overview.md)
 * [&lt;img src='img_icons/manage_accounts.png'&gt;セットアップ](SetUp.md)
 * [&lt;img src='img_icons/newspaper.png'&gt;v1.2.0リリースノート](v1_2update.md)
@@ -53,4 +53,11 @@
  * [&lt;img src='img_icons/info.png'&gt;料金体系](Pricing.md)
 
 ---
+
+* &lt;img src='img_icons/play_circle.png'&gt;外部リンク
+ * [&lt;img src='img_icons/download.png'&gt;評価用アプリDL](https://ailia.ai/dx/)
+ * [&lt;img src='img_icons/play_circle.png'&gt;説明動画（Youtube）](https://www.youtube.com/watch?v=jGhKwrF3by8)
+
+---
+
 * [&lt;img src='img_icons/language.png'&gt;Langage](https://axinc-ai.github.io/ailia-dx-insight/)

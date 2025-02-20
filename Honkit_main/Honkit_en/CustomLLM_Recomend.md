@@ -186,8 +186,12 @@ Specifically, models with the notation Q4_K_M or similar quantization.
 
 ## When Running LM Studio on a Linux Server
 
-If you encounter the following error when trying to connect from ailia DX insight while running LM Studio on a Linux server, it might be due to the server's firewall settings prohibiting access to the port.
-Please allow access to the port with the command `sudo ufw allow 1234/tcp` (replace "1234" with the number set in LM Studio).
+If you encounter the following error when trying to connect from ailia DX insight while running LM Studio on a Linux server, it might be due to the server's firewall settings prohibiting access to the port.<br>
+![CustomLLM_16.png](/img/CustomLLM_16.png)<br>
+Please allow access to the port with the command<br>
+ `sudo ufw allow 1234/tcp`<br>
+  (replace "1234" with the number set in LM Studio).<br>
+![CustomLLM_17.png](/img/CustomLLM_17.png)<br>
 
 <br>
 
